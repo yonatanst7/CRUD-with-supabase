@@ -33,7 +33,7 @@ const Update = () => {
       setFormError("Could not update the smoothie")
     }
     if (data) {
-      console.log("Smoothie updated:", data)
+      console.log("Smoothie updated:", data, error)
       navigate("/")
     }
   }
